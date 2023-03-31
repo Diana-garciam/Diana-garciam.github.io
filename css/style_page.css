@@ -1,0 +1,157 @@
+@charset "utf-8";
+header,nav,main,footer{
+    padding: 20PX;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main section {
+    width: 800px;
+    padding: 20px;
+    background-color: #673874;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    color: #C0BCC1;
+}
+main section h2 {
+    padding-bottom: 15px;
+    font-family: "Dream Orphans";
+}
+main section p {
+    margin: 10px;
+    font-family: "Century Gothic";
+}
+
+
+
+
+header{
+    background-color: #342245;
+    height: 100px;
+}nav {
+    height: 60px;
+    background-color: #685F70;
+}
+main {
+    height: auto;
+    background-color: #372D41;
+}
+footer {
+    height: 100px;
+    background-color: #411F60;
+}
+header h1 {
+    color: #C4AED8;
+    text-align: center;
+    font-family: "Bauhaus 93";
+    font-weight: 400;
+    font-size: 48px;
+}
+footer h5 {
+    color: #918A98;
+    text-align: center;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+#img1 {
+    width: 50%;
+    height: auto;
+}
+#img0 {
+    width: 390px;
+    height: 261px;
+}
+.img_1 {
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 100%;
+    border: 15px solid #805E84;
+}
+#img2 {
+    width: 25%;
+    height: auto;
+    float: right;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+#img3 {
+    width: 25%;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+#fondo_1 {
+    background-image: url(../imagenes/todavia-foto-vida-lente-camara-dslr.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 150%;
+    background-position: 30% 70%;
+}
+.p1 {
+    width: 400px;
+    height: auto;
+    color: #FFFFFF;
+    background-color: rgba(35,34,39,0.79);
+    padding-left: 10px;
+}
+.imgfilter_size {
+    width: 256px;
+    height: auto;
+    margin: 5px;
+}
+.gray_scale {
+    filter: grayscale(100%);
+}
+.sepia {
+    filter: sepia(100%);
+}
+.opacity {
+    filter: opacity(30%);
+}
+.brillo {
+    filter: brightness(220%);
+}
+.contraste {
+    filter: contrast(180%);
+}
+.negativo {
+    filter: invert(100%);
+}
+.desenfocado {
+    filter: blur(3px);
+}
+.sombra {
+    filter: drop-shadow(5px 5px 10px black);
+}
+.img_fotoperfil {
+    float: right;
+    padding-left: 20px;
+}
+nav ul {
+    margin: 0 auto;
+    width: 80%;
+}
+nav ul li {
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+}
+ul li a {
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: bold;
+    color: rgba(235,239,108,1.00);
+}
+ul li a:hover {
+    color: rgba(113,173,173,1.00);
+    padding: 20px;
+    border-radius: 20PX;
+    background-color: rgba(124,64,140,1.00);
+}
